@@ -20,3 +20,6 @@ namespace LinqDemo
         }
     }    
 }
+
+///
+// EF Core uses Linq to write queries to the DB-> EFCore makes translation -> from our Linq Query is generated SQL (the DataBase understands only SQL query)
